@@ -1,0 +1,132 @@
+{
+  "created_at": "2026-10-20T17:09:38.211858+03:30",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "a338c4af4f03395e665823b7818df9779af4be6e51e32ee6f2815a70d2b68aa7",
+      "bytes": 58
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "ee2adf428a0fac045ec2bac7955bef235213e9a53a0032e418b21b33996404f8",
+      "bytes": 41
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "sha256": "2cd2aa555f55fcac4b45507ef9f419f959289f2c26e0a050e1be0d7d372a0d65",
+      "bytes": 374
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "832589631ca1d4de0808bef2097ac096987a5a99cafc71b7aa30755c62c862ef",
+      "bytes": 1071
+    },
+    {
+      "path": "PROTOCOL.md",
+      "sha256": "9957d43d6d5e5ff90f80a7f5b5749ab462fdfb6c15b3abb50f8848a838edde5f",
+      "bytes": 3311
+    },
+    {
+      "path": "README.md",
+      "sha256": "17cf7383d4c781ccc427347745b0f52a84c6fb5d392b34b94451f90b3d173072",
+      "bytes": 4510
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "0fa17e9d643bd811dbde90c95a67754230bede13e5da3a033a00a5eebca84b22",
+      "bytes": 70
+    },
+    {
+      "path": "lstm_cell.py",
+      "sha256": "bd2179d13a30e80cc46d8f08fecf0489a8f682c228527e4d2a733fd1660ff725",
+      "bytes": 3239
+    },
+    {
+      "path": "test_lstm_cell.py",
+      "sha256": "58f9b6b457f318bbe2c30a90ee6539ce0ef3b67f6aaadd6d75558f0a7da69bf2",
+      "bytes": 5584
+    },
+    {
+      "path": "tutorial.py",
+      "sha256": "555706bbe964451fb35a8d0b690bfb05420c0b3f03660f0a6fd009186d747245",
+      "bytes": 1512
+    },
+    {
+      "path": "render_tutorial.py",
+      "sha256": "c9d41080bfc06f6c2e9c0c486eb368aa6e841c3ceb917fdc9bee313a882e26d2",
+      "bytes": 4766
+    },
+    {
+      "path": "sources.json",
+      "sha256": "ed63660a6c98cb869ca84b38d949bd2923d5cca4ea1663002a0e643d585f937c",
+      "bytes": 2241
+    },
+    {
+      "path": "results/2026-10-20.json",
+      "sha256": "911020daf1174c6202c278448744c7f23296140477e8a616dcc51fa787c68ada",
+      "bytes": 2274
+    },
+    {
+      "path": "results/checks.json",
+      "sha256": "f7229edaa7cf279d7c6c47898a5743705b65200fc6c48021bdedadaa25eeaa67",
+      "bytes": 527
+    },
+    {
+      "path": "results/tests-stdout.txt",
+      "sha256": "ca2da2f1bb72f9d6d501c54172d5253163040b571dd455a4ff6aaa9f7bb3497c",
+      "bytes": 1412
+    },
+    {
+      "path": "results/media.json",
+      "sha256": "9ae7dbd9ae3e38eaafed60baf2d231e6989839e5e58777422209161f0f56bee5",
+      "bytes": 1622
+    },
+    {
+      "path": "results/lstm-step.png",
+      "sha256": "4696e191a68ea88a66b69330c55fd4e1a5a741602ddf0492a89a826b9e811a6e",
+      "bytes": 203912
+    },
+    {
+      "path": "results/lstm-step.svg",
+      "sha256": "e22476b5ea33f392a81f9a071a53729d632ebc2ceb5458104d444741e5cf995b",
+      "bytes": 113300
+    },
+    {
+      "path": "results/lstm-step.mp4",
+      "sha256": "b52ce136be2e681859102a5a8bbd5f8b04210221058dffebc73cda00d1f660d9",
+      "bytes": 283784
+    },
+    {
+      "path": "results/lstm-step.srt",
+      "sha256": "bd06ef2b3ae664db47dcb19d2867b65bdfdd472e8849b0075c440d2b3eeb0252",
+      "bytes": 403
+    },
+    {
+      "path": "results/lstm-stage-1.png",
+      "sha256": "3fa8045b24ba6acca4d418e372b2686960e8ed6e366752c7036caf9d6e4ef14e",
+      "bytes": 109669
+    },
+    {
+      "path": "results/lstm-stage-2.png",
+      "sha256": "25d71dbb69deb4dc4eab679c5a5e6f9594eca7a54d3c66e872d8380ea019a682",
+      "bytes": 141590
+    },
+    {
+      "path": "results/lstm-stage-3.png",
+      "sha256": "ac215b1fa5c5b247d19059077e8eee32a1f15b77ee249264d36c7ef9a2bd1c04",
+      "bytes": 169848
+    },
+    {
+      "path": "results/lstm-stage-4.png",
+      "sha256": "4696e191a68ea88a66b69330c55fd4e1a5a741602ddf0492a89a826b9e811a6e",
+      "bytes": 203912
+    },
+    {
+      "path": "results/animation-stages.txt",
+      "sha256": "9ae21e99b39ffb8047a4f5a443f8cab655c727e154bdbc2e1764ae36ed79b725",
+      "bytes": 164
+    }
+  ],
+  "manifest_self_hash_excluded": true,
+  "scan": "Explicit allowlist; secret patterns, assistant credit and local personal paths checked; no real dataset records."
+}

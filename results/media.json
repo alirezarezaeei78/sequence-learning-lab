@@ -1,0 +1,25 @@
+{
+  "type": "original educational animation and complete static alternative",
+  "duration_seconds": 20,
+  "dimensions": [
+    1080,
+    1350
+  ],
+  "audio": false,
+  "encoding": "H.264 yuv420p",
+  "animation_basis": "Four timed schematic arithmetic reveals; illustrative values are fixed executed outputs; duration is not computation time.",
+  "source": "render_tutorial.py",
+  "input": "2026-10-20.json",
+  "static": "lstm-step.png",
+  "editable": "lstm-step.svg",
+  "video": "lstm-step.mp4",
+  "alt_text": "Worked scalar LSTM step with authored values. Previous cell memory 1.50 is multiplied by forget gate 0.80 to retain 1.20. Input gate 0.25 times candidate -0.40 contributes -0.10. The new cell memory is 1.10. Output gate 0.60 times tanh(1.10) gives hidden output about 0.4803. One-step input shape is batch by input features; both state tensors are batch by hidden features. No training is shown.",
+  "caption": "Constructed scalar illustration of a standard unprojected LSTM cell using PyTorch2.9 equations. Four staged reveals over20 seconds; playback timing is schematic, not runtime. All values checked in NumPy against a separate scalar oracle.",
+  "native_preview_verified": false,
+  "browser_playback_verified": true,
+  "decode_verified": true,
+  "browser_playback_surface": "In-app browser, localhost MP4; observed duration20s, readyState4, no error, advancing time and completed playback",
+  "first_middle_last_frames_inspected": true,
+  "mobile_static_inspected_width": 390,
+  "native_preview_note": "Pending authenticated Chrome and LinkedIn composer; must be verified by publisher before submission"
+}

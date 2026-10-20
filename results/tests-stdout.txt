@@ -1,0 +1,20 @@
+test_batch_independence (test_lstm_cell.CellChecks.test_batch_independence) ... ok
+test_cell_not_tanh_bounded_hidden_is (test_lstm_cell.CellChecks.test_cell_not_tanh_bounded_hidden_is) ... ok
+test_empty_dimension_rejections (test_lstm_cell.CellChecks.test_empty_dimension_rejections) ... ok
+test_finite_rejections (test_lstm_cell.CellChecks.test_finite_rejections) ... ok
+test_fixed_gate_partial_derivative (test_lstm_cell.CellChecks.test_fixed_gate_partial_derivative) ... ok
+test_hand_arithmetic (test_lstm_cell.CellChecks.test_hand_arithmetic) ... ok
+test_independent_oracle (test_lstm_cell.CellChecks.test_independent_oracle) ... ok
+test_memory_only_products (test_lstm_cell.CellChecks.test_memory_only_products) ... ok
+test_repeat_and_no_mutation (test_lstm_cell.CellChecks.test_repeat_and_no_mutation) ... ok
+test_sequence_oracle (test_lstm_cell.CellChecks.test_sequence_oracle) ... ok
+test_shape_rejections (test_lstm_cell.CellChecks.test_shape_rejections) ... ok
+test_stable_sigmoid_extremes (test_lstm_cell.CellChecks.test_stable_sigmoid_extremes) ... ok
+test_two_bias_terms (test_lstm_cell.CellChecks.test_two_bias_terms) ... ok
+test_worked_gates (test_lstm_cell.CellChecks.test_worked_gates) ... ok
+test_wrong_packing_changes_answer (test_lstm_cell.CellChecks.test_wrong_packing_changes_answer) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.076s
+
+OK

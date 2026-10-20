@@ -1,0 +1,43 @@
+{
+  "accessed_date": "2026-10-20",
+  "method_status": "Established method; original illustrative implementation, no research novelty",
+  "sources": [
+    {
+      "url": "https://docs.pytorch.org/docs/2.9/generated/torch.nn.LSTMCell.html",
+      "version": "PyTorch 2.9.0",
+      "supports": "One-step equations, input/state/parameter shapes, return order",
+      "access_sha256": "7ddf4180c5c77866a0f5798e5c92fd849113413860c4e5da176dd79e8eb788a4",
+      "redistributed_source_content": false,
+      "licence_note": "PyTorch BSD-style licence; cited only, no third-party source copied"
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/blob/v2.9.0/torch/nn/modules/rnn.py",
+      "version": "PyTorch 2.9.0",
+      "supports": "Tagged official source and documentation; i,f,g,o convention",
+      "access_sha256": "09c571c33b63a2b1bf6c65c76ebfc039a6a19b22fc317c629d8b5d16abf8473b",
+      "redistributed_source_content": false,
+      "licence_note": "PyTorch BSD-style licence; cited only, no third-party source copied"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.9/generated/torch.nn.LSTM.html",
+      "version": "PyTorch 2.9.0",
+      "supports": "Sequence axis order and batch_first defaults",
+      "access_sha256": "49a78854354693e7d6c9291a0445e073bf7541592e38e7c7c0ca5f6244a4a088",
+      "redistributed_source_content": false,
+      "licence_note": "PyTorch BSD-style licence; cited only, no third-party source copied"
+    }
+  ],
+  "input_provenance": "Authored synthetic scalar/batched numerical inputs and deliberately constructed weights; no third-party dataset",
+  "asset_provenance": "Original Matplotlib artwork generated from executed results; MIT",
+  "failed_accesses": [
+    {
+      "url": "https://www.bioinf.jku.at/publications/older/2604.pdf",
+      "reason": "Expired TLS certificate; not bypassed; not relied upon"
+    },
+    {
+      "url": "https://www.bioinf.jku.at/publications/older/380.pdf",
+      "reason": "Expired TLS certificate; not bypassed; not relied upon"
+    }
+  ],
+  "tool_note": "Web search tool returned service404; primary official URLs were fetched directly over HTTPS with certificate verification. Stable docs redirected to newer docs, so an explicit version2.9 was read."
+}

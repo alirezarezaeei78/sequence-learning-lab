@@ -1,0 +1,9 @@
+file 'lstm-stage-1.png'
+duration 5
+file 'lstm-stage-2.png'
+duration 5
+file 'lstm-stage-3.png'
+duration 5
+file 'lstm-stage-4.png'
+duration 5
+file 'lstm-stage-4.png'

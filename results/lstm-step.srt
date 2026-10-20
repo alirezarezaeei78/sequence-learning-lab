@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:05,000
+One constructed LSTM step.
+The gates control memory and output.
+
+2
+00:00:05,000 --> 00:00:10,000
+Retain 1.20, then write -0.10.
+The new cell memory is 1.10.
+
+3
+00:00:10,000 --> 00:00:15,000
+The output gate scales tanh(1.10).
+The hidden output is about 0.4803.
+
+4
+00:00:15,000 --> 00:00:20,000
+One-step input: (B,D). States: (B,H).
+Schematic playback, not execution time.

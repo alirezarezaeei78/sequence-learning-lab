@@ -1,0 +1,10 @@
+{
+  "executed_at": "2026-10-20T17:06:03.092532+03:30",
+  "command": "python -m unittest -v",
+  "passed": true,
+  "test_count": 15,
+  "test_log": "tests-stdout.txt",
+  "scope": "Independent scalar arithmetic, sequence-step parity, shapes, finite values and constructed numerical examples. No trained-model or PyTorch parity claim.",
+  "torch_installed": false,
+  "source_check": "Official PyTorch 2.9 LSTMCell equations and gate packing checked against tagged source; LSTM batch_first default checked against versioned docs."
+}
