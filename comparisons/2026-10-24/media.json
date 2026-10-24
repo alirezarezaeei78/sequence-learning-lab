@@ -1,0 +1,19 @@
+{
+  "format": "GIF",
+  "dimensions": [
+    1200,
+    1600
+  ],
+  "frames": 5,
+  "durations_ms": [
+    2500,
+    3000,
+    3000,
+    3000,
+    3500
+  ],
+  "total_duration_ms": 15000,
+  "loop": 0,
+  "type": "Schematic emphasis; not measured runtime",
+  "video_created": false
+}

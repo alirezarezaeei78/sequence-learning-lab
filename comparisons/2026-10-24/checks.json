@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-24T19:33:05.698489+03:30",
+  "unit_tests": 25,
+  "tests_passed": true,
+  "new_gru_tests": 10,
+  "framework": "PyTorch2.4.0 CPU float64",
+  "parity_configurations": 6,
+  "timesteps_per_configuration": 5,
+  "max_absolute_error": 4.440892098500626e-16,
+  "worked_gru_framework_checked": true,
+  "parameter_counts_verified_against_actual_tensors": true,
+  "no_training_performed": true,
+  "source_checks": true,
+  "static_and_first_middle_last_gif_frames_inspected": true,
+  "gif_duration_ms": 15000,
+  "video_created": false,
+  "native_linkedin_preview_verified": false,
+  "native_gif_motion_verified": false,
+  "mobile_native_preview_verified": false
+}

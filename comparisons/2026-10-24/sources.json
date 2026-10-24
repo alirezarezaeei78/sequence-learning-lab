@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-10-24T19:31:41.946839+03:30",
+  "sources": [
+    {
+      "url": "https://docs.pytorch.org/docs/2.4/generated/torch.nn.LSTM.html",
+      "version": "2.4",
+      "claims": "Separate cell/hidden states, i/f/g/o equations, packed parameter tensor shapes, final state versus output axes",
+      "location": "equations, Variables, Inputs/Outputs",
+      "licence_note": "Facts paraphrased; no source text/artwork copied"
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/blob/v2.4.0/torch/nn/modules/rnn.py",
+      "version": "v2.4.0",
+      "claims": "GRU r/z/n reset-after and update convention; parameter definitions for installed framework",
+      "location": "class GRU and LSTM docstrings",
+      "licence_note": "No third-party code copied"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.14/generated/torch.nn.GRU.html",
+      "version": "2.14 current docs redirect inspected",
+      "claims": "Reset/update convention cross-check; implementation caveat",
+      "location": "equations and Note on candidate calculation",
+      "licence_note": "Facts only; local parity uses installed2.4.0"
+    }
+  ],
+  "data": {
+    "kind": "Authored synthetic numerical fixtures",
+    "seed": 24,
+    "licence": "MIT for original authored code/media/fixtures",
+    "external_dataset_used": false,
+    "trained_model": false
+  },
+  "paper_reported_empirical_results_used": false,
+  "scientific_novelty_claim": false
+}

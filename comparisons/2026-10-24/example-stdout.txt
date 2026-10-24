@@ -1,0 +1,131 @@
+{
+  "scope": "Authored synthetic teaching; no training or benchmark",
+  "seed": 24,
+  "versions": {
+    "python": "3.12.9",
+    "numpy": "1.26.4"
+  },
+  "hardware": {
+    "os": "Windows",
+    "processor": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel"
+  },
+  "configuration": {
+    "input_size": 9,
+    "hidden_size": 16,
+    "layers": 1,
+    "bidirectional": false,
+    "bias": true,
+    "projection": 0
+  },
+  "worked_gru": {
+    "previous": 0.5,
+    "r": 0.25,
+    "z": 0.8,
+    "n": -0.24999999999999992,
+    "retained": 0.4,
+    "written": -0.049999999999999975,
+    "next": 0.35000000000000003
+  },
+  "parameter_counts": {
+    "lstm": 1728,
+    "gru": 1296
+  },
+  "framework": {
+    "version": "2.4.0",
+    "device": "CPU",
+    "dtype": "float64",
+    "worked_gru_next": 0.3500000000000001,
+    "parity_cases": [
+      {
+        "kind": "lstm",
+        "batch": 1,
+        "input_size": 1,
+        "hidden_size": 1,
+        "steps": 5,
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "kind": "lstm",
+        "batch": 3,
+        "input_size": 2,
+        "hidden_size": 4,
+        "steps": 5,
+        "max_abs_error": 1.6653345369377348e-16
+      },
+      {
+        "kind": "lstm",
+        "batch": 2,
+        "input_size": 9,
+        "hidden_size": 16,
+        "steps": 5,
+        "max_abs_error": 4.440892098500626e-16
+      },
+      {
+        "kind": "gru",
+        "batch": 1,
+        "input_size": 1,
+        "hidden_size": 1,
+        "steps": 5,
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "kind": "gru",
+        "batch": 3,
+        "input_size": 2,
+        "hidden_size": 4,
+        "steps": 5,
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "kind": "gru",
+        "batch": 2,
+        "input_size": 9,
+        "hidden_size": 16,
+        "steps": 5,
+        "max_abs_error": 2.7755575615628914e-16
+      }
+    ],
+    "actual_parameter_counts": {
+      "lstm_bias_True": 1728,
+      "lstm_bias_False": 1600,
+      "gru_bias_True": 1296,
+      "gru_bias_False": 1200
+    },
+    "shapes": {
+      "lstm": {
+        "output": [
+          2,
+          5,
+          16
+        ],
+        "states": [
+          [
+            1,
+            2,
+            16
+          ],
+          [
+            1,
+            2,
+            16
+          ]
+        ]
+      },
+      "gru": {
+        "output": [
+          2,
+          5,
+          16
+        ],
+        "states": [
+          [
+            1,
+            2,
+            16
+          ]
+        ]
+      }
+    }
+  },
+  "limitation": "Counts and arithmetic do not establish speed, accuracy or memory-horizon superiority."
+}

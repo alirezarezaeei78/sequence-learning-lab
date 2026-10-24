@@ -2,6 +2,8 @@
 
 Small, inspectable sequence-learning implementations and reproducible educational experiments. The first release explains **one standard LSTM cell step**, with checked NumPy arithmetic and original visual assets.
 
+**24 October addition:** [LSTM versus GRU: states, gates and parameter counts](comparisons/2026-10-24/README.md) adds a checked GRU implementation, NumPy/PyTorch parity, exact parameter-count audits and original PNG/SVG/GIF teaching assets. Follow its separate install/run instructions. The historical release below remains documented as it was executed; its old MP4 is preserved. New media are static images or animated GIFs only.
+
 This release is a tutorial, **not a trained activity classifier, a performance benchmark or a production library**. Every example input and parameter is authored and synthetic. No dataset download, account, API key or GPU is required.
 
 ## Run locally
