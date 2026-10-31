@@ -1,0 +1,17 @@
+{
+  "executed_at": "2026-10-31T16:00:53.631349+00:00",
+  "local_tests_passed": 31,
+  "new_padding_tests": 6,
+  "independent_scalar_max_abs_h_error": 1.1102230246251565e-16,
+  "packed_standalone_h_c_tolerance": 1e-14,
+  "extra_padding_invariance": true,
+  "original_batch_order_after_unsorted_packing": true,
+  "real_zero_is_valid": true,
+  "masked_loss_denominator": 6,
+  "padded_input_gradient_zero": true,
+  "wrong_positive_length_truncation_shown": true,
+  "invalid_lengths_rejected": true,
+  "training_performed": false,
+  "data_used": "Authored synthetic sequences; no UCI/benchmark/customer data",
+  "native_preview_verified": false
+}

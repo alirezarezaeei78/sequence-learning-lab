@@ -1,5 +1,10 @@
 # Sequence Learning Lab
 
+**31 October addition:** [Padding, truncation and loss masking](padding/2026-10-31/README.md)
+uses checked untrained scalar LSTM outputs to show why a loss mask does not skip
+padded recurrent steps. Includes a local runner, independent scalar arithmetic,
+packing/length/gradient checks and an original static guide.
+
 Small, inspectable sequence-learning implementations and reproducible educational experiments. The first release explains **one standard LSTM cell step**, with checked NumPy arithmetic and original visual assets.
 
 **24 October addition:** [LSTM versus GRU: states, gates and parameter counts](comparisons/2026-10-24/README.md) adds a checked GRU implementation, NumPy/PyTorch parity, exact parameter-count audits and original PNG/SVG/GIF teaching assets. Follow its separate install/run instructions. The historical release below remains documented as it was executed; its old MP4 is preserved. New media are static images or animated GIFs only.

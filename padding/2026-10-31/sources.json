@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-31T16:00:53.631349+00:00",
+  "sources": [
+    {
+      "url": "https://docs.pytorch.org/docs/2.4/generated/torch.nn.LSTM.html",
+      "version": "2.4, matches installed2.4.0",
+      "claims": "Gate equations, batch_first, packed inputs, hidden/cell shape and bidirectional limitation",
+      "sections": "Equations; inputs/outputs; bidirectional note",
+      "review_status": "Official versioned documentation; established API, not recent research",
+      "licence_note": "No third-party diagram/source text redistributed"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.4.0/torch/nn/utils/rnn.py",
+      "version": "Git tagv2.4.0",
+      "claims": "pad_sequence batch axes; pack_padded_sequence CPU lengths and enforce_sorted=False; original-order unsorting",
+      "scope": "Official tagged implementation/docstrings, read after archived API pages failed to load",
+      "licence_note": "Reference only; no implementation code copied"
+    }
+  ],
+  "code_inputs_results_artwork_licence": "Authored MIT; existing LICENSE preserved",
+  "dataset": "None; explicitly synthetic ordered values",
+  "novelty_claim": false
+}

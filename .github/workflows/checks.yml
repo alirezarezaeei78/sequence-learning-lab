@@ -13,3 +13,4 @@ jobs:
       - run: python -m unittest -v
       - run: python tutorial.py --output /tmp/lstm-example.json
       - run: python compare_cells.py --output /tmp/cell-comparison.json
+      - run: python padding_demo.py --output /tmp/padding-example.json

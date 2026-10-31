@@ -1,0 +1,240 @@
+{
+  "date": "2026-10-31",
+  "kind": "authored synthetic teaching example; hand-set untrained weights",
+  "model": {
+    "input_size": 1,
+    "hidden_size": 1,
+    "batch_first": true,
+    "layers": 1,
+    "directions": 1,
+    "dtype": "float64",
+    "device": "cpu",
+    "weights_ih_hh": 0.5,
+    "bias_ih": 0.1,
+    "bias_hh": 0.0,
+    "initial_h_c": 0.0,
+    "dropout": 0.0,
+    "training_performed": false
+  },
+  "inputs": {
+    "sequences": [
+      [
+        1.0,
+        2.0
+      ],
+      [
+        0.0,
+        1.0,
+        -1.0,
+        2.0
+      ]
+    ],
+    "lengths": [
+      2,
+      4
+    ],
+    "right_padded": [
+      [
+        [
+          1.0
+        ],
+        [
+          2.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0
+        ],
+        [
+          1.0
+        ],
+        [
+          -1.0
+        ],
+        [
+          2.0
+        ]
+      ]
+    ],
+    "valid_mask": [
+      [
+        true,
+        true,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "ordinary_output_h": [
+    [
+      [
+        0.21531968574043805
+      ],
+      [
+        0.5553963082983773
+      ],
+      [
+        0.3783512995639467
+      ],
+      [
+        0.3038844850860214
+      ]
+    ],
+    [
+      [
+        0.02744377273738812
+      ],
+      [
+        0.24018874272550528
+      ],
+      [
+        0.02145033018585794
+      ],
+      [
+        0.42627125755478523
+      ]
+    ]
+  ],
+  "ordinary_final_h": [
+    0.3038844850860214,
+    0.42627125755478523
+  ],
+  "ordinary_final_c": [
+    0.5921744555509161,
+    0.6425759497161116
+  ],
+  "last_valid_h": [
+    0.5553963082983773,
+    0.42627125755478523
+  ],
+  "packed_final_h": [
+    0.5553963082983773,
+    0.42627125755478523
+  ],
+  "packed_final_c": [
+    0.9105622391820408,
+    0.6425759497161116
+  ],
+  "standalone": [
+    {
+      "h": 0.5553963082983773,
+      "c": 0.9105622391820408,
+      "scalar_trace": [
+        {
+          "x": 1.0,
+          "z": 0.6,
+          "i_f_o": 0.6456563062257954,
+          "g": 0.5370495669980353,
+          "c": 0.3467494396881143,
+          "h": 0.21531968574043805
+        },
+        {
+          "x": 2.0,
+          "z": 1.2076598428702192,
+          "i_f_o": 0.7698846233160905,
+          "g": 0.8359761423088552,
+          "c": 0.9105622391820408,
+          "h": 0.5553963082983773
+        }
+      ]
+    },
+    {
+      "h": 0.42627125755478523,
+      "c": 0.6425759497161116,
+      "scalar_trace": [
+        {
+          "x": 0.0,
+          "z": 0.1,
+          "i_f_o": 0.52497918747894,
+          "g": 0.09966799462495582,
+          "c": 0.05232362283586467,
+          "h": 0.02744377273738812
+        },
+        {
+          "x": 1.0,
+          "z": 0.6137218863686941,
+          "i_f_o": 0.6487893464737523,
+          "g": 0.5467417231662418,
+          "c": 0.38866721432777895,
+          "h": 0.24018874272550528
+        },
+        {
+          "x": -1.0,
+          "z": -0.27990562863724733,
+          "i_f_o": 0.4304769126094665,
+          "g": -0.27281773546437,
+          "c": 0.04987052598853593,
+          "h": 0.021450330185857954
+        },
+        {
+          "x": 2.0,
+          "z": 1.110725165092929,
+          "i_f_o": 0.752264279909108,
+          "g": 0.8043185760033207,
+          "c": 0.6425759497161116,
+          "h": 0.4262712575547851
+        }
+      ]
+    }
+  ],
+  "independent_scalar_max_abs_h_error": 1.1102230246251565e-16,
+  "padding_changed_to9": {
+    "ordinary_final_h": [
+      0.9875144339756489,
+      0.42627125755478523
+    ],
+    "packed_final_h": [
+      0.5553963082983773,
+      0.42627125755478523
+    ],
+    "valid_outputs_unchanged": true
+  },
+  "loss_mask": {
+    "target": 0.0,
+    "loss": "mean squared output; denominator valid steps",
+    "valid_terms": 6,
+    "padded_terms": 8,
+    "masked": 0.0992397868025613,
+    "naive_all_padded": 0.10386677587163644,
+    "forward_states_unchanged_by_loss_mask": true
+  },
+  "truncation": {
+    "B_first_two_final_h": 0.24018874272550528,
+    "A_incorrect_length1_final_h": 0.21531968574043805
+  },
+  "packed_padded_input_gradients_zero": true,
+  "limits": [
+    "Right-padded valid prefixes only; explicit correct lengths",
+    "Last-valid gathering equivalence here is for a forward-only LSTM, not bidirectional states",
+    "Loss masking does not skip recurrent computation",
+    "No real-data accuracy, speed or architecture superiority claim"
+  ],
+  "environment": {
+    "python": "3.12.9",
+    "torch": "2.4.0",
+    "processor": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+    "torch_threads": 1,
+    "dependencies": {
+      "numpy": "1.26.4",
+      "matplotlib": "3.10.0"
+    }
+  },
+  "source_sha256": {
+    "padding_demo.py": "de0902b41dd69f48b05ad2502792cd74d535ba561433d48b64147405c233e3a6",
+    "padding/2026-10-31/PROTOCOL.md": "c365f3a119bad79cf29b9200581056c3d8e8e987490dca634fef01658e7564aa"
+  },
+  "executed_at": "2026-10-31T15:59:34.915990+00:00"
+}

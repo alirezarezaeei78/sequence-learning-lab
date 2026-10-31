@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="864pt" viewBox="0 0 648 864" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-31T19:30:31.377652</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 864
+L 648 864
+L 648 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 218.1168 175.87584
+L 290.5632 175.87584
+L 290.5632 142.23168
+L 218.1168 142.23168
+z
+" clip-path="url(#p7fe3a0ea92)" style="fill: #e8f3f2; stroke: #087e82; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 301.7088 175.87584
+L 374.1552 175.87584
+L 374.1552 142.23168
+L 301.7088 142.23168
+z
+" clip-path="url(#p7fe3a0ea92)" style="fill: #e8f3f2; stroke: #087e82; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 385.3008 175.87584
+L 457.7472 175.87584
+L 457.7472 142.23168
+L 385.3008 142.23168
+z
+" clip-path="url(#p7fe3a0ea92)" style="fill: #f8eee3; stroke: #ab5d13; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 468.8928 175.87584
+L 541.3392 175.87584
+L 541.3392 142.23168
+L 468.8928 142.23168
+z
+" clip-path="url(#p7fe3a0ea92)" style="fill: #f8eee3; stroke: #ab5d13; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 218.1168 222.77376
+L 290.5632 222.77376
+L 290.5632 189.1296
+L 218.1168 189.1296
+z
+" clip-path="url(#p7fe3a0ea92)" style="fill: #e8f3f2; stroke: #087e82; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 301.7088 222.77376
+L 374.1552 222.77376
+L 374.1552 189.1296
+L 301.7088 189.1296
+z
+" clip-path="url(#p7fe3a0ea92)" style="fill: #e8f3f2; stroke: #087e82; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 385.3008 222.77376
+L 457.7472 222.77376
+L 457.7472 189.1296
+L 385.3008 189.1296
+z
+" clip-path="url(#p7fe3a0ea92)" style="fill: #e8f3f2; stroke: #087e82; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 468.8928 222.77376
+L 541.3392 222.77376
+L 541.3392 189.1296
+L 468.8928 189.1296
+z
+" clip-path="url(#p7fe3a0ea92)" style="fill: #e8f3f2; stroke: #087e82; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173047" x="45.36" y="165.549915" transform="rotate(-0 45.36 165.549915)">A · length 2</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173047" x="254.34" y="164.338688" transform="rotate(-0 254.34 164.338688)">1</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173047" x="337.932" y="164.338688" transform="rotate(-0 337.932 164.338688)">2</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173047" x="421.524" y="164.338688" transform="rotate(-0 421.524 164.338688)">0</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173047" x="505.116" y="164.338688" transform="rotate(-0 505.116 164.338688)">0</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173047" x="45.36" y="212.447835" transform="rotate(-0 45.36 212.447835)">B · length 4</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173047" x="254.34" y="211.236607" transform="rotate(-0 254.34 211.236607)">0</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173047" x="337.932" y="211.236607" transform="rotate(-0 337.932 211.236607)">1</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173047" x="421.524" y="211.236607" transform="rotate(-0 421.524 211.236607)">-1</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173047" x="505.116" y="211.236607" transform="rotate(-0 505.116 211.236607)">2</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="table_1">
+    <g id="patch_10">
+     <path d="M 45.36 481.224
+L 457.7472 481.224
+L 457.7472 451.824
+L 45.36 451.824
+z
+" style="fill: #173047; stroke: #cbd9dd; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="251.5536" y="471.490875" transform="rotate(-0 251.5536 471.490875)">Sequence A · final hidden state</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 457.7472 481.224
+L 602.64 481.224
+L 602.64 451.824
+L 457.7472 451.824
+z
+" style="fill: #173047; stroke: #cbd9dd; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="530.1936" y="471.490875" transform="rotate(-0 530.1936 471.490875)">Computed h</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 45.36 510.624
+L 457.7472 510.624
+L 457.7472 481.224
+L 45.36 481.224
+z
+" style="fill: #ffffff; stroke: #cbd9dd; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173047" x="251.5536" y="500.890875" transform="rotate(-0 251.5536 500.890875)">Ordinary h at padded end</text>
+    </g>
+    <g id="patch_13">
+     <path d="M 457.7472 510.624
+L 602.64 510.624
+L 602.64 481.224
+L 457.7472 481.224
+z
+" style="fill: #ffffff; stroke: #cbd9dd; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173047" x="530.1936" y="500.890875" transform="rotate(-0 530.1936 500.890875)">0.3039</text>
+    </g>
+    <g id="patch_14">
+     <path d="M 45.36 540.024
+L 457.7472 540.024
+L 457.7472 510.624
+L 45.36 510.624
+z
+" style="fill: #e8f3f2; stroke: #cbd9dd; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173047" x="251.5536" y="530.290875" transform="rotate(-0 251.5536 530.290875)">Packed h at true end</text>
+    </g>
+    <g id="patch_15">
+     <path d="M 457.7472 540.024
+L 602.64 540.024
+L 602.64 510.624
+L 457.7472 510.624
+z
+" style="fill: #e8f3f2; stroke: #cbd9dd; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173047" x="530.1936" y="530.290875" transform="rotate(-0 530.1936 530.290875)">0.5554</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 45.36 569.424
+L 457.7472 569.424
+L 457.7472 540.024
+L 45.36 540.024
+z
+" style="fill: #e8f3f2; stroke: #cbd9dd; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173047" x="251.5536" y="559.690875" transform="rotate(-0 251.5536 559.690875)">Unpadded reference h</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 457.7472 569.424
+L 602.64 569.424
+L 602.64 540.024
+L 457.7472 540.024
+z
+" style="fill: #e8f3f2; stroke: #cbd9dd; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173047" x="530.1936" y="559.690875" transform="rotate(-0 530.1936 559.690875)">0.5554</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_19">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173047" x="45.36" y="42.336" transform="rotate(-0 45.36 42.336)">Padding is not a stop instruction</text>
+  </g>
+  <g id="text_20">
+   <text style="font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4f6574" x="45.36" y="67.392" transform="rotate(-0 45.36 67.392)">A checked LSTM example · hand-set, untrained weights</text>
+  </g>
+  <g id="text_21">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173047" x="45.36" y="113.184" transform="rotate(-0 45.36 113.184)">1  PAD · add slots to make a batch</text>
+  </g>
+  <g id="text_22">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4f6574" x="45.36" y="246.24" transform="rotate(-0 45.36 246.24)">B’s first zero is real data. Lengths come from the input contract.</text>
+  </g>
+  <g id="text_23">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173047" x="45.36" y="289.44" transform="rotate(-0 45.36 289.44)">2  MASK THE LOSS · choose error terms</text>
+  </g>
+  <g id="text_24">
+   <text style="font-size: 21px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #173047" x="45.36" y="323.136" transform="rotate(-0 45.36 323.136)">A: [1, 1, 0, 0]     B: [1, 1, 1, 1]</text>
+  </g>
+  <g id="text_25">
+   <text style="font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173047" x="45.36" y="352.512" transform="rotate(-0 45.36 352.512)">Valid-step mean = sum(mask × squared error) / 6</text>
+  </g>
+  <g id="text_26">
+   <text style="font-weight: 700; font-size: 14.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ab5d13" x="45.36" y="380.16" transform="rotate(-0 45.36 380.16)">The mask excludes errors; the LSTM still processes padded inputs.</text>
+  </g>
+  <g id="text_27">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173047" x="45.36" y="425.088" transform="rotate(-0 45.36 425.088)">3  PACK · use the true sequence lengths</text>
+  </g>
+  <g id="text_28">
+   <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4f6574" x="45.36" y="600.48" transform="rotate(-0 45.36 600.48)">Right-padded prefixes · lengths [2, 4] · enforce_sorted=False</text>
+  </g>
+  <g id="text_29">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173047" x="45.36" y="639.36" transform="rotate(-0 45.36 639.36)">TRUNCATE · remove real information</text>
+  </g>
+  <g id="text_30">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173047" x="45.36" y="673.056" transform="rotate(-0 45.36 673.056)">B: [0, 1, −1, 2] → [0, 1], then update length to 2.</text>
+  </g>
+  <g id="text_31">
+   <text style="font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173047" x="45.36" y="704.16" transform="rotate(-0 45.36 704.16)">Final h changes: 0.4263 → 0.2402. This is a different input.</text>
+  </g>
+  <g id="text_32">
+   <text style="font-weight: 700; font-size: 14.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173047" x="45.36" y="748.224" transform="rotate(-0 45.36 748.224)">Try: change only the padded suffix. Packed h should stay unchanged.</text>
+  </g>
+  <g id="text_33">
+   <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4f6574" x="45.36" y="776.736" transform="rotate(-0 45.36 776.736)">CPU float64 · one layer/direction · input/hidden width 1 · h₀ = c₀ = 0</text>
+  </g>
+  <g id="text_34">
+   <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4f6574" x="45.36" y="797.472" transform="rotate(-0 45.36 797.472)">Every input/recurrent weight 0.5; input bias 0.1; recurrent bias 0.</text>
+  </g>
+  <g id="text_35">
+   <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4f6574" x="45.36" y="818.208" transform="rotate(-0 45.36 818.208)">Synthetic arithmetic, not predictive accuracy or speed. No bidirectional claim.</text>
+  </g>
+  <g id="text_36">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4f6574" x="45.36" y="843.264" transform="rotate(-0 45.36 843.264)">Source: official PyTorch 2.4 LSTM and tagged rnn.py. Original code and diagram.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7fe3a0ea92">
+   <rect x="45.36" y="133.056" width="557.28" height="101.952"/>
+  </clipPath>
+ </defs>
+</svg>
