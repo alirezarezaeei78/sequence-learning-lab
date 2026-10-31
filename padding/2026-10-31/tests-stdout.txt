@@ -26,11 +26,12 @@ test_wrong_packing_changes_answer (test_lstm_cell.CellChecks.test_wrong_packing_
 test_extra_padding_and_all_equal_lengths (test_padding.PaddingChecks.test_extra_padding_and_all_equal_lengths) ... ok
 test_independent_scalar_and_standalone (test_padding.PaddingChecks.test_independent_scalar_and_standalone) ... ok
 test_lengths_reject_bad_values (test_padding.PaddingChecks.test_lengths_reject_bad_values) ... ok
+test_numeric_runner_without_optional_plotting_dependency (test_padding.PaddingChecks.test_numeric_runner_without_optional_plotting_dependency) ... ok
 test_padding_is_not_a_stop_instruction (test_padding.PaddingChecks.test_padding_is_not_a_stop_instruction) ... ok
 test_truncation_and_wrong_lengths_remove_information (test_padding.PaddingChecks.test_truncation_and_wrong_lengths_remove_information) ... ok
 test_unsorted_packing_restores_original_order (test_padding.PaddingChecks.test_unsorted_packing_restores_original_order) ... ok
 
 ----------------------------------------------------------------------
-Ran 31 tests in 0.119s
+Ran 32 tests in 0.099s
 
 OK

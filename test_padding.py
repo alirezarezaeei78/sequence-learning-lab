@@ -1,5 +1,7 @@
 """Focused checks for actual padding/masking failure modes."""
 import unittest
+from unittest.mock import patch
+import importlib.metadata
 import torch
 from padding_demo import example,worked_lstm,lengths_for,packed
 
@@ -32,6 +34,15 @@ class PaddingChecks(unittest.TestCase):
     def test_truncation_and_wrong_lengths_remove_information(self):
         d=example();self.assertNotAlmostEqual(d['packed_final_h'][1],d['truncation']['B_first_two_final_h'],places=8)
         self.assertNotAlmostEqual(d['packed_final_h'][0],d['truncation']['A_incorrect_length1_final_h'],places=8)
+    def test_numeric_runner_without_optional_plotting_dependency(self):
+        real_version=importlib.metadata.version
+        def minimal_environment(name):
+            if name=='matplotlib':raise importlib.metadata.PackageNotFoundError(name)
+            return real_version(name)
+        with patch('importlib.metadata.version',side_effect=minimal_environment):
+            result=example()
+        self.assertIsNone(result['environment']['dependencies']['matplotlib'])
+        self.assertAlmostEqual(result['packed_final_h'][0],.5553963082983773,places=14)
 
 
 if __name__=='__main__':unittest.main()

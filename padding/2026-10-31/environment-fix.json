@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-31T16:03:22.344603+00:00",
+  "change": "Optional matplotlib metadata version now returns null when not installed; numeric runner needs no plotting package",
+  "numerical_model_inputs_weights_protocol_unchanged": true,
+  "all_saved_numeric_arrays_and_outputs_identical": true,
+  "original_code_sha256": "de0902b41dd69f48b05ad2502792cd74d535ba561433d48b64147405c233e3a6",
+  "fixed_code_sha256": "dc6fdca751635bc10d4efadb267d1a6eb9c62f46a89f74af02a08fe716883570",
+  "initial_public_commit": "d901fd114130897c229876e91a5edb5a78271398",
+  "failed_ci_run": "https://github.com/alirezarezaeei78/sequence-learning-lab/actions/runs/41218085953",
+  "original_freeze_preserved": true
+}

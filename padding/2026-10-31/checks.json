@@ -1,7 +1,7 @@
 {
   "executed_at": "2026-10-31T16:00:53.631349+00:00",
-  "local_tests_passed": 31,
-  "new_padding_tests": 6,
+  "local_tests_passed": 32,
+  "new_padding_tests": 7,
   "independent_scalar_max_abs_h_error": 1.1102230246251565e-16,
   "packed_standalone_h_c_tolerance": 1e-14,
   "extra_padding_invariance": true,
@@ -13,5 +13,7 @@
   "invalid_lengths_rejected": true,
   "training_performed": false,
   "data_used": "Authored synthetic sequences; no UCI/benchmark/customer data",
-  "native_preview_verified": false
+  "native_preview_verified": false,
+  "optional_plotting_metadata_absence_regression_passed": true,
+  "numeric_outputs_unchanged_after_environment_fix": true
 }

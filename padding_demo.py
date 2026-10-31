@@ -13,6 +13,12 @@ from torch.nn.utils.rnn import pad_sequence,pack_padded_sequence
 ROOT=Path(__file__).resolve().parent
 
 
+def installed_version(name):
+    """Record optional render dependencies without requiring them numerically."""
+    try:return importlib.metadata.version(name)
+    except importlib.metadata.PackageNotFoundError:return None
+
+
 def lengths_for(x,lengths):
     if not isinstance(x,torch.Tensor) or x.ndim!=3 or min(x.shape)<1:
         raise ValueError('Expected nonempty batch,time,feature tensor')
@@ -95,7 +101,7 @@ def example():
         'loss_mask':{'target':0.,'loss':'mean squared output; denominator valid steps','valid_terms':6,'padded_terms':8,'masked':float(masked_loss.detach()),'naive_all_padded':float(naive_loss.detach()),'forward_states_unchanged_by_loss_mask':True},
         'truncation':{'B_first_two_final_h':float(short[0,0,0]),'A_incorrect_length1_final_h':float(wrong[0,0,0])},
         'packed_padded_input_gradients_zero':True,'limits':['Right-padded valid prefixes only; explicit correct lengths','Last-valid gathering equivalence here is for a forward-only LSTM, not bidirectional states','Loss masking does not skip recurrent computation','No real-data accuracy, speed or architecture superiority claim'],
-        'environment':{'python':platform.python_version(),'torch':torch.__version__,'processor':platform.processor(),'torch_threads':torch.get_num_threads(),'dependencies':{n:importlib.metadata.version(n) for n in ['numpy','matplotlib']}},
+        'environment':{'python':platform.python_version(),'torch':torch.__version__,'processor':platform.processor(),'torch_threads':torch.get_num_threads(),'dependencies':{n:installed_version(n) for n in ['numpy','matplotlib']}},
         'source_sha256':{n:hashlib.sha256((ROOT/n).read_bytes()).hexdigest() for n in source_names}}
 
 

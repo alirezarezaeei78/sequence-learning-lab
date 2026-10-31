@@ -79,7 +79,7 @@ One layer, forward-only, no projection/dropout, CPU float64. Last-valid-output
 gathering agrees here; do not apply that shortcut to bidirectional final states.
 Packing handles recurrence lengths, but downstream losses/pooling still need
 correct alignment/masks if unpacked outputs are used. No claim packing is faster
-was measured.31 local tests passed, including6 new checks for scalar/standalone
+was measured.32 local tests passed, including7 new checks for scalar/standalone
 parity, real zeros, nontrivial zero padding, loss denominator, sorting, extra
 padding, gradients, malformed lengths and explicit truncation. Full outputs stay
 visible; tolerance1e-14, not general exact floating-point equality.
@@ -88,3 +88,8 @@ All inputs, code and artwork are authored under the existing MIT licence.
 Official PyTorch2.4 equations and tagged source support method/API definitions;
 their code/text/artwork are not copied into this repository. No scientific
 novelty, performance benefit or practical task accuracy is claimed.
+
+The initial CI failure exposed a missing optional Matplotlib metadata dependency.
+[Environment fix](environment-fix.json) preserves the original declaration/hash,
+records both code versions and verifies identical numerical arrays. Numerical
+checks now run without Matplotlib installed; only rendering requires it.
